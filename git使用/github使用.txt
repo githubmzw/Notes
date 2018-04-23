@@ -1,0 +1,6 @@
+方法一：
+1.在github上新建空工程
+2.在本地使用git init新建仓库
+3.讲文件添加进来，使用git add -A和git commit
+4.添加远程仓库 git remote add origin git@github.com:githubmzw/Notes.git   ##讲Notes改成工程名字
+5.git push -u origin master ##以后可以用git push origin master:master
